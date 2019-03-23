@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      "huangrenn.github.io" # url: "https://github.com/"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -294,10 +294,10 @@ defaults:
       share: true
       related: true
 
-      #_pages
-    - scope:
-        path: ""
-        type: Pages
-      values:
-        layout: single
-        author-profile: true
+     #_pages
+     scope:
+       path: ""
+       type: Pages
+     values:
+       layout: single
+       author-profile: true
